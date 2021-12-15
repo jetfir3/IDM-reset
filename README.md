@@ -1,19 +1,14 @@
 # IDM-reset
 
-Hi,
+Resets IDM trial period.
 
-I had the same problem with IDM trial stopped working
-Found this little workaround from here: https://www.reddit.com/r/Piracy/comments/bq78ji/idm_popup_fake_serial/
-This worked well for me so decided to share it.
+Forked from [/Jackpison/IDM-reset/](https://github.com/Jackpison/IDM-reset/). 
+* Swapped out subinacl for SetACL
+* Check for Admin permissions before running
+* Runs commands based on 32/64-bit OS  
+If running 32-bit Windows, SetACL is not required and is skipped... along with the deletion of Wow6432Node reg keys.  
+If running 64-bit Windows, script checks if SetACL.exe is located in same directory and downloads via curl if not found. 
 
-
-I developed a script that resolves the problem and clean all IDM modifications.
-<br>it is a ".bat" file (you can open it with a text editor to understand it) try to run it as an admininstrator.
-
-Download "subinacl.exe" (https://www.microsoft.com/en-in/download/details.aspx?id=23510 if not working try google for safe source), 
-<br>and put it in the same directory of the script because the script run it one time at the begining of the script.
-
-Note: Keep subinacl.msi & resetrialidm.bat in the same folder, and run the .bat file as an administrator only.
-
-Feel free to commit any changes to this as needed.
-<br>Enjoy!!!
+## Credits
+[/Jackpison/](https://github.com/Jackpison/IDM-reset/) for original script  
+[Helge Klein](https://helgeklein.com/) for SetACL
