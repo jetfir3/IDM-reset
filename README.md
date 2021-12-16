@@ -4,7 +4,7 @@ Resets IDM trial period.
 
 Forked from [/Jackpison/IDM-reset/](https://github.com/Jackpison/IDM-reset/). 
 * Swapped out subinacl for SetACL
-* Check for Admin permissions before running
+* Checks for Admin permissions before running
 * Runs commands based on 32/64-bit OS  
 
 If running 32-bit Windows, SetACL is not required and skipped... along with all Wow6432Node reg key commands.  
