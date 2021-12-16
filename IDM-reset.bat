@@ -42,7 +42,6 @@ reg delete "HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{6DDF00DB-1234-
 reg delete "HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{6DDF00DB-1234-46EC-8356-27E7B2051192}" /v Therad /f 2> nul
 reg delete "HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{6DDF00DB-1234-46EC-8356-27E7B2051192}" /f 2> nul
 reg delete "HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{7B8E9164-324D-4A2E-A46D-0165FB2000EC}" /f 2> nul
-reg delete "HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{7B8E9164-324D-4A2E-A46D-0165FB2000EC}" /f 2> nul
 reg delete "HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{5ED60779-4DE2-4E07-B862-974CA4FF2E9C}" /f 2> nul
 
 reg delete "HKEY_LOCAL_MACHINE\Software\Wow6432Node\Internet Download Manager" /v scansk /f 2> nul
